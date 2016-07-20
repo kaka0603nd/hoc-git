@@ -1,0 +1,36 @@
+
+feof la ki tu cuoi cung 
+
+helper : $this->load->helper('a'); khong can $this->a->...
+library : $this->load->library('b'); can phai co $this->b->...
+
+ke hoach ngay mai
+	+ them du lieu vao csdl	-	xong 
+	+ upload anh thanh cong (co kiem tra dinh dang,kich co, chuyen anh thumpnal)
+	+ them du lieu vao csdl day du dinh dang
+	+ kiem tra bang php
+	+ kiem tra bang jquery
+
+
+
+SELECT * FROM dangsanpham,danhmuc where dangsanpham.danhmuc_id = danhmuc.id and dangsanpham.id = 21
+
+SELECT * FROM dangsanpham join danhmuc on dangsanpham.danhmuc_id = danhmuc.id and dangsanpham.id = 21
+
+tk admin web123.vn
+password : Phuanbinh@wEb123
+demo6 : huynhdevn
+2e1b42c589c51c7d07a826c064982c70
+
+download thachpham 
+	1 : Thi?t k? website b?ng Wordpress t? A d?n Z - Th?ch Ph?m	success
+	2 : Hu?ng d?n thi?t k? website bán hàng trong Wordpress - Th?ch Ph?m	success
+	3 : success
+	4 : success
+	5 : success
+	6 : success
+
+https://www.facebook.com/profile.php?id=100009105604518
+echo $catid;
+        echo 'bb'.$GLOBALS['root_cat'];
+        echo 'aa'.$parentid ;
