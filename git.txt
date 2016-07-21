@@ -1,0 +1,39 @@
+Khai bao ten va email :
+	$ git config --global user.name "Thach Pham"
+	$ git config --global user.email "contact@thachpham.com"
+
+Kiem tra user :
+	$ cat ~/.gitconfig
+
+Xem cac thiet lap he thong :
+	config --list
+
+Tao 1 thu muc git tren local
+	$ git init git_example
+	// da tao 1 file git_example trong C:\Users\BATHEPC
+	
+Khai bao 1 file co san trong git
+	$ git add readme.txt
+	$ git status	// xem trang thai file la file moi hay da push
+
+// Tao 1 kho chu tren Github de lam viec
++ dang nhap vao github an vao dau + tren menu va chon New repository
++ sau khi tao kho chua xong se yeu cau public or private neu can phan quyen
++ sau khi da co kho chua thi vao trong may local va clone dia chi do ve may tinh bang lenh
+
+	$ git clone https://github.com/kaka0603nd/hoc-git	// sau khi clone trong file da tao 1 file hoc-git trong C:\Users\BATHEPC
+
+	echo "# Huong dan Git co ban" > README.md	// chung ta bat dau tao 1 file theo cach tren hoac nhu sau
+							// nghia la tao 1 file readme.md trong kho chua va them du lieu nhu echo
+	
+	$ git commit -m "thay doi khac"	// sau do phai commit(uy thac) cho cac file do bang lenh
+
+	
+	$ git push origin master	// sau khi tao xong file tren local phai dung lenh de xuat ban no nhu sau :
+	
+					// vao link : https://github.com/kaka0603nd/hoc-git da tao duoc file readme.md tren github
+
+Bo 1 tap tin chua commit :
+	$ git reset HEAD tên_file
+
+	
